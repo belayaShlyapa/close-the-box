@@ -1,5 +1,5 @@
 # Close The Box
-![gameplay](gameplay.jpg)
+![gameplay](gameplay.JPG)
 
 ## Goal
 The goal is to **sum check boxes value** by ticking them **to arrive at the random number.**
