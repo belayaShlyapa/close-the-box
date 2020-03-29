@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <center>
+        <FlowPane alignment="CENTER">
+            <VBox alignment="CENTER">
+                <FlowPane prefHeight="50"  prefWidth="50"></FlowPane>
+                <Label text="Choisissez le nombre de joueur(s) :"></Label>
+                <FlowPane prefHeight="50"  prefWidth="50"></FlowPane>
+                <TextField fx:id="nbbPlayersTextField"></TextField>
+                <FlowPane prefHeight="50"  prefWidth="50"></FlowPane>
+                <Button text="Valider" fx:id="nbPlayersButton" onAction="#clickNbPlayerButton"></Button>
+                <FlowPane prefHeight="50"  prefWidth="50"></FlowPane>
+            </VBox>
+        </FlowPane>
+    </center>
+</BorderPane>
